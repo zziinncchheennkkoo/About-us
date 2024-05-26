@@ -43,7 +43,7 @@ address {
 }
 
 
-/*========about-us=========*/
+
 
 /*========about-us=========*/
 
@@ -80,7 +80,7 @@ address {
     line-height: 1.375;
     letter-spacing: -0.03em;
     color: #fcf9f9;
-    g
+    margin-bottom: 40px;
 }
 
 .about-us-list {
