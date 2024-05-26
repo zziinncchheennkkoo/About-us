@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #fcf9f9;
+    background-color: #1c2225;
+}
+
+
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* обнулення базових властивостей списків (ul) */
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;
+}
+
+
+/*========about-us=========*/
+
+.container {
+min-width: 320px;
+max-width: 375px;
+padding: 0 20px;
+margin: 0 auto;
+}
+
+.about-us {
+
+}
+
+.about-us-section {
+
+}
+
+.about-us-div {
+
+}
+
+
+.about-us-div-text {
+
+}
+
+.about-us-title {
+
+}
+
+.about-us-list {
+
+}
+
+.about-us-item {
+
+}
+
+.about-us-text {
+
+}
+
+.about-us-thumb {
+
+}
+
+.about-us-img {
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .section-paddings {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+
+
+    .section-paddings {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
