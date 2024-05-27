@@ -40,8 +40,9 @@ address {
   font-style: normal;
 }
 
-//*========about-us=========*/
+/*========about-us=========*/
 
+/*========about-us=========*/ 
 .container {
   min-width: 320px;
   max-width: 375px;
@@ -56,11 +57,13 @@ address {
 }
 
 .png {
-  background-image: url("/img/background/ornament-bg-grey.png"), url("/img/background/ornament-bg-grey@2x.png");
-  background-position: bottom right;
+  background-image: url("/img/background/ornament-bg-grey.png");
   background-repeat: no-repeat;
-  background-size: 335px 499px;
+  background-size: 459px 408px;
+  background-position-x: 125px;
+  background-position-y: 560px;
 }
+
 
 .about-us-div {
   display: flex;
@@ -68,6 +71,7 @@ address {
   justify-content: flex-start;
   flex-direction: column;
   gap: 50px;
+  height: 1019px;
 }
 
 .about-us-div-text {}
@@ -103,6 +107,7 @@ address {
 .about-us-thumb {
   position: relative;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .about-us-img {}
@@ -114,10 +119,11 @@ address {
   }
 
   .png {
-    background-image: url("/img/background/ornament-bg-grey.png"), url("/img/background/ornament-bg-grey@2x.png");
-    background-position: bottom right;
+    background-image: url("/img/background/ornament-bg-grey.png");
     background-repeat: no-repeat;
     background-size: 545px 484px;
+    background-position-x: 405px;
+    background-position-y: 450px;
   }
 
   .about-us-section {
@@ -149,10 +155,11 @@ address {
   }
 
   .png {
-    background-image: url("/img/background/ornament-bg-grey.png"), url("/img/background/ornament-bg-grey@2x.png");
-    background-position: bottom right;
+    background-image: url("/img/background/ornament-bg-grey.png");
     background-repeat: no-repeat;
     background-size: 545px 484px;
+    background-position-x: 870px;
+    background-position-y: 400px;
   }
 
   .about-us-section {
